@@ -1,9 +1,9 @@
 #!/usr/bin/env bats
 
-@test "prints 'Hello world!'" {
+@test "prints 'Hello Brian!'" {
   run ./hello
   [ $status -eq 0 ]
-  [ $output = "Hello world!" ]
+  [ $output = "Hello Brian!" ]
 }
 
 @test "prints 'Hello John!'" {
